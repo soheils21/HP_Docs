@@ -1,0 +1,70 @@
+/* Search box */
+.search-container {
+    margin: 15px 10px 0 0;
+    position: relative;
+    /* padding-bottom: 10px; */
+}
+
+.search-container .twitter-typeahead {
+    width: 100%;
+}
+.search-container input, .search-container .tt-input {
+    padding: 7px;
+    width: 100%;
+    color: #333;
+    border: 2px solid #6c426c;
+    border-radius: 2px;
+}
+.search-container a {
+    color: #fff;
+}
+.search-container strong {
+    color: pink;
+    font-weight: normal;
+}
+.search-container .tt-menu, .search-container ul {
+    font-size: 13px;
+    position: absolute;
+    width: 100%;
+    background-color: #6c426c;
+    border: 1px solid #1f292e;
+    border-radius: 0 0 2px 2px;
+    color: #777;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    max-height: 600px;
+    overflow-y: auto;
+}
+.search-container .tt-menu .league-name {
+    padding-left: 8px;
+    color: white;
+}
+.search-container .tt-menu .tt-suggestion {
+    text-align: left;
+    width: 100%;
+    padding: 4px 0 4px 7px;
+    overflow: hidden;
+    border: 0;
+    cursor: pointer;
+    list-style: none;
+}
+.search-container .tt-menu .tt-suggestion::before {
+    content: "•  ";
+    color: #CCC;
+}
+.search-container .tt-menu .tt-suggestion:hover,
+.search-container .tt-menu .tt-suggestion.tt-cursor,
+.search-container .tt-menu .tt-suggestion.tt-highlight{
+    background-color: #fff;
+}
+.search-container .tt-menu .tt-suggestion:hover a,
+.search-container .tt-menu .tt-suggestion.tt-cursor a,
+.search-container .tt-menu .tt-suggestion:hover a.tt-highlight{
+    color: #1f292e;
+    text-decoration: underline;
+}
+.search-container .tt-menu .tt-suggestion.tt-cursor strong,
+.search-container .tt-menu .tt-suggestion:hover strong,
+.search-container .tt-menu .tt-suggestion.tt-highlight strong {
+    color: #ff4141;
+}

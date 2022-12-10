@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>actions/types.js - Documentation</title>
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <link type="text/css" rel="stylesheet" href="styles/search.css">
+    
+        
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+        window.__CONFIG__ = window.__CONFIG__ || {};
+        window.__CONFIG__.search = true;
+    </script>
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+
+    <div class="search-container" id="search-container">
+        <input type="text" placeholder="Search">
+    </div>
+
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-authHeader.html">authHeader</a></li><li><a href="module-authservices.html">authservices</a></li><li><a href="module-userservices.html">userservices</a></li><li><a href="Reducer.auth_reducer.module_auth_reducer.html">auth_reducer</a></li><li><a href="Reducer.message_reducer.module_message_reducer.html">message_reducer</a></li></ul><h3>Namespaces</h3><ul><li><a href="Actions.action_auth.html">action_auth</a><ul class='methods'><li data-type='method'><a href="Actions.action_auth.html#.login">login</a></li><li data-type='method'><a href="Actions.action_auth.html#.pass_reset_confirm">pass_reset_confirm</a></li><li data-type='method'><a href="Actions.action_auth.html#.register">register</a></li><li data-type='method'><a href="Actions.action_auth.html#.request_pass_reset">request_pass_reset</a></li></ul></li><li><a href="Actions.action_message.html">action_message</a><ul class='methods'><li data-type='method'><a href="Actions.action_message.html#.clearMessage">clearMessage</a></li><li data-type='method'><a href="Actions.action_message.html#.setMessage">setMessage</a></li></ul></li><li><a href="Actions.action_type.html">action_type</a></li><li><a href="helper.country.html">country</a></li><li><a href="helper.formatDate.html">formatDate</a><ul class='methods'><li data-type='method'><a href="helper.formatDate.html#.formatDate">formatDate</a></li></ul></li><li><a href="helper.StarRating.html">StarRating</a><ul class='methods'><li data-type='method'><a href="helper.StarRating.html#.StarRating">StarRating</a></li></ul></li><li><a href="helper.useTitle.html">useTitle</a><ul class='methods'><li data-type='method'><a href="helper.useTitle.html#.useTitle">useTitle</a></li></ul></li><li><a href="Reducer.auth_reducer.html">auth_reducer</a></li><li><a href="Reducer.combine_reducer.html">combine_reducer</a></li><li><a href="Reducer.message_reducer.html">message_reducer</a></li><li><a href="Services.auth_Header.html">auth_Header</a><ul class='methods'><li data-type='method'><a href="Services.auth_Header.html#.authHeader">authHeader</a></li></ul></li><li><a href="Services.auth_service.html">auth_service</a><ul class='methods'><li data-type='method'><a href="Services.auth_service.html#.login">login</a></li><li data-type='method'><a href="Services.auth_service.html#.logout">logout</a></li><li data-type='method'><a href="Services.auth_service.html#.passwordresetconfirm">passwordresetconfirm</a></li><li data-type='method'><a href="Services.auth_service.html#.register">register</a></li><li data-type='method'><a href="Services.auth_service.html#.requestpasswordreset">requestpasswordreset</a></li></ul></li><li><a href="Services.user_services.html">user_services</a><ul class='methods'><li data-type='method'><a href="Services.user_services.html#.editProfileProfileInfo">editProfileProfileInfo</a></li><li data-type='method'><a href="Services.user_services.html#.editProfileUserInfo">editProfileUserInfo</a></li><li data-type='method'><a href="Services.user_services.html#.getProfile">getProfile</a></li></ul></li></ul><h3>Global</h3><ul><li><a href="global.html#BACKEND_URL">BACKEND_URL</a></li><li><a href="global.html#PublicHeaderConfig">PublicHeaderConfig</a></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">actions/types.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * some string constant that indicates the type of action being performed.
+ * @namespace Actions.action_type
+ */
+
+/**
+ * retrun REGISTER_SUCCESS  string
+ *@memberof Actions.action_type
+ @type {string}
+ */
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+/**
+ * retrun REGISTER_FAIL  string
+ *@memberof Actions.action_type
+ @type {string}
+ */
+export const REGISTER_FAIL = "REGISTER_FAIL";
+/**
+ * retrun RESET_PASS_SUCCESS  string
+ *@memberof Actions.action_type
+ @type {string}
+ */
+export const RESET_PASS_SUCCESS = "RESET_PASS_SUCCESS";
+/**
+ * retrun RESET_PASS_FAIL  string
+ *@memberof Actions.action_type
+ @type {string}
+ */
+export const RESET_PASS_FAIL = "RESET_PASS_FAIL";
+/**
+ * retrun LOGIN_SUCCESS  string
+ *@memberof Actions.action_type
+ @type {string}
+ */
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+/**
+ * retrun LOGIN_FAIL  string
+ *@memberof Actions.action_type
+ @type {string}
+ */
+export const LOGIN_FAIL = "LOGIN_FAIL";
+/**
+ * retrun LOGOUT  string
+ *@memberof Actions.action_type
+ @type {string}
+ */
+export const LOGOUT = "LOGOUT";
+/**
+ * retrun SET_MESSAGE  string
+ *@memberof Actions.action_type
+ @type {string}
+ */
+export const SET_MESSAGE = "SET_MESSAGE";
+/**
+ * retrun CLEAR_MESSAGE  string
+ *@memberof Actions.action_type
+ @type {string}
+ */
+export const CLEAR_MESSAGE = "CLEAR_MESSAGE";
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="//github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> using the <a href="//github.com/HalZhan/docdash-with-search">docdash-with-search</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/system.js"></script>
+<script src="scripts/app.js"></script>
+
+</body>
+</html>

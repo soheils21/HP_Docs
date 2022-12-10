@@ -1,0 +1,1321 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>helper/getCountry.js - Documentation</title>
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <link type="text/css" rel="stylesheet" href="styles/search.css">
+    
+        
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+        window.__CONFIG__ = window.__CONFIG__ || {};
+        window.__CONFIG__.search = true;
+    </script>
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+
+    <div class="search-container" id="search-container">
+        <input type="text" placeholder="Search">
+    </div>
+
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-authHeader.html">authHeader</a></li><li><a href="module-authservices.html">authservices</a></li><li><a href="module-userservices.html">userservices</a></li><li><a href="Reducer.auth_reducer.module_auth_reducer.html">auth_reducer</a></li><li><a href="Reducer.message_reducer.module_message_reducer.html">message_reducer</a></li></ul><h3>Namespaces</h3><ul><li><a href="Actions.action_auth.html">action_auth</a><ul class='methods'><li data-type='method'><a href="Actions.action_auth.html#.login">login</a></li><li data-type='method'><a href="Actions.action_auth.html#.pass_reset_confirm">pass_reset_confirm</a></li><li data-type='method'><a href="Actions.action_auth.html#.register">register</a></li><li data-type='method'><a href="Actions.action_auth.html#.request_pass_reset">request_pass_reset</a></li></ul></li><li><a href="Actions.action_message.html">action_message</a><ul class='methods'><li data-type='method'><a href="Actions.action_message.html#.clearMessage">clearMessage</a></li><li data-type='method'><a href="Actions.action_message.html#.setMessage">setMessage</a></li></ul></li><li><a href="Actions.action_type.html">action_type</a></li><li><a href="helper.country.html">country</a></li><li><a href="helper.formatDate.html">formatDate</a><ul class='methods'><li data-type='method'><a href="helper.formatDate.html#.formatDate">formatDate</a></li></ul></li><li><a href="helper.StarRating.html">StarRating</a><ul class='methods'><li data-type='method'><a href="helper.StarRating.html#.StarRating">StarRating</a></li></ul></li><li><a href="helper.useTitle.html">useTitle</a><ul class='methods'><li data-type='method'><a href="helper.useTitle.html#.useTitle">useTitle</a></li></ul></li><li><a href="Reducer.auth_reducer.html">auth_reducer</a></li><li><a href="Reducer.combine_reducer.html">combine_reducer</a></li><li><a href="Reducer.message_reducer.html">message_reducer</a></li><li><a href="Services.auth_Header.html">auth_Header</a><ul class='methods'><li data-type='method'><a href="Services.auth_Header.html#.authHeader">authHeader</a></li></ul></li><li><a href="Services.auth_service.html">auth_service</a><ul class='methods'><li data-type='method'><a href="Services.auth_service.html#.login">login</a></li><li data-type='method'><a href="Services.auth_service.html#.logout">logout</a></li><li data-type='method'><a href="Services.auth_service.html#.passwordresetconfirm">passwordresetconfirm</a></li><li data-type='method'><a href="Services.auth_service.html#.register">register</a></li><li data-type='method'><a href="Services.auth_service.html#.requestpasswordreset">requestpasswordreset</a></li></ul></li><li><a href="Services.user_services.html">user_services</a><ul class='methods'><li data-type='method'><a href="Services.user_services.html#.editProfileProfileInfo">editProfileProfileInfo</a></li><li data-type='method'><a href="Services.user_services.html#.editProfileUserInfo">editProfileUserInfo</a></li><li data-type='method'><a href="Services.user_services.html#.getProfile">getProfile</a></li></ul></li></ul><h3>Global</h3><ul><li><a href="global.html#BACKEND_URL">BACKEND_URL</a></li><li><a href="global.html#PublicHeaderConfig">PublicHeaderConfig</a></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">helper/getCountry.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * get array of countries data
+ * @name helper
+ * @namespace helper.country
+ */
+/**
+ *  countries data.
+ *
+ *@type {Array&lt;Object>} array of countrires data
+ *@memberof helper.country
+ *@example
+ *{
+    value: "Anguilla",
+    label: "Anguilla",
+    abbreviation: "AI",
+  }
+ */
+
+var country = [
+  {
+    value: "Afghanistan",
+    label: "Afghanistan",
+    abbreviation: "AF",
+  },
+  {
+    value: "Albania",
+    label: "Albania",
+    abbreviation: "AL",
+  },
+  {
+    value: "Algeria",
+    label: "Algeria",
+    abbreviation: "DZ",
+  },
+  {
+    value: "American Samoa",
+    label: "American Samoa",
+    abbreviation: "AS",
+  },
+  {
+    value: "Andorra",
+    label: "Andorra",
+    abbreviation: "AD",
+  },
+  {
+    value: "Angola",
+    label: "Angola",
+    abbreviation: "AO",
+  },
+  {
+    value: "Anguilla",
+    label: "Anguilla",
+    abbreviation: "AI",
+  },
+  {
+    value: "Antarctica",
+    label: "Antarctica",
+    abbreviation: "AQ",
+  },
+  {
+    value: "Antigua and Barbuda",
+    label: "Antigua and Barbuda",
+    abbreviation: "AG",
+  },
+  {
+    value: "Argentina",
+    label: "Argentina",
+    abbreviation: "AR",
+  },
+  {
+    value: "Armenia",
+    label: "Armenia",
+    abbreviation: "AM",
+  },
+  {
+    value: "Aruba",
+    label: "Aruba",
+    abbreviation: "AW",
+  },
+  {
+    value: "Australia",
+    label: "Australia",
+    abbreviation: "AU",
+  },
+  {
+    value: "Austria",
+    label: "Austria",
+    abbreviation: "AT",
+  },
+  {
+    value: "Azerbaijan",
+    label: "Azerbaijan",
+    abbreviation: "AZ",
+  },
+  {
+    value: "Bahamas",
+    label: "Bahamas",
+    abbreviation: "BS",
+  },
+  {
+    value: "Bahrain",
+    label: "Bahrain",
+    abbreviation: "BH",
+  },
+  {
+    value: "Bangladesh",
+    label: "Bangladesh",
+    abbreviation: "BD",
+  },
+  {
+    value: "Barbados",
+    label: "Barbados",
+    abbreviation: "BB",
+  },
+  {
+    value: "Belarus",
+    label: "Belarus",
+    abbreviation: "BY",
+  },
+  {
+    value: "Belgium",
+    label: "Belgium",
+    abbreviation: "BE",
+  },
+  {
+    value: "Belize",
+    label: "Belize",
+    abbreviation: "BZ",
+  },
+  {
+    value: "Benin",
+    label: "Benin",
+    abbreviation: "BJ",
+  },
+  {
+    value: "Bermuda",
+    label: "Bermuda",
+    abbreviation: "BM",
+  },
+  {
+    value: "Bhutan",
+    label: "Bhutan",
+    abbreviation: "BT",
+  },
+  {
+    value: "Bolivia",
+    label: "Bolivia",
+    abbreviation: "BO",
+  },
+  {
+    value: "Bosnia and Herzegovina",
+    label: "Bosnia and Herzegovina",
+    abbreviation: "BA",
+  },
+  {
+    value: "Botswana",
+    label: "Botswana",
+    abbreviation: "BW",
+  },
+  {
+    value: "Bouvet Island",
+    label: "Bouvet Island",
+    abbreviation: "BV",
+  },
+  {
+    value: "Brazil",
+    label: "Brazil",
+    abbreviation: "BR",
+  },
+  {
+    value: "British Indian Ocean Territory",
+    label: "British Indian Ocean Territory",
+    abbreviation: "IO",
+  },
+  {
+    value: "Brunei",
+    label: "Brunei",
+    abbreviation: "BN",
+  },
+  {
+    value: "Bulgaria",
+    label: "Bulgaria",
+    abbreviation: "BG",
+  },
+  {
+    value: "Burkina Faso",
+    label: "Burkina Faso",
+    abbreviation: "BF",
+  },
+  {
+    value: "Burundi",
+    label: "Burundi",
+    abbreviation: "BI",
+  },
+  {
+    value: "Cambodia",
+    label: "Cambodia",
+    abbreviation: "KH",
+  },
+  {
+    value: "Cameroon",
+    label: "Cameroon",
+    abbreviation: "CM",
+  },
+  {
+    value: "Canada",
+    label: "Canada",
+    abbreviation: "CA",
+  },
+  {
+    value: "Cape Verde",
+    label: "Cape Verde",
+    abbreviation: "CV",
+  },
+  {
+    value: "Cayman Islands",
+    label: "Cayman Islands",
+    abbreviation: "KY",
+  },
+  {
+    value: "Central African Republic",
+    label: "Central African Republic",
+    abbreviation: "CF",
+  },
+  {
+    value: "Chad",
+    label: "Chad",
+    abbreviation: "TD",
+  },
+  {
+    value: "Chile",
+    label: "Chile",
+    abbreviation: "CL",
+  },
+  {
+    value: "China",
+    label: "China",
+    abbreviation: "CN",
+  },
+  {
+    value: "Christmas Island",
+    label: "Christmas Island",
+    abbreviation: "CX",
+  },
+  {
+    value: "Cocos (Keeling) Islands",
+    label: "Cocos (Keeling) Islands",
+    abbreviation: "CC",
+  },
+  {
+    value: "Colombia",
+    label: "Colombia",
+    abbreviation: "CO",
+  },
+  {
+    value: "Comoros",
+    label: "Comoros",
+    abbreviation: "KM",
+  },
+  {
+    value: "Congo",
+    label: "Congo",
+    abbreviation: "CG",
+  },
+  {
+    value: "Cook Islands",
+    label: "Cook Islands",
+    abbreviation: "CK",
+  },
+  {
+    value: "Costa Rica",
+    label: "Costa Rica",
+    abbreviation: "CR",
+  },
+  {
+    value: "Croatia",
+    label: "Croatia",
+    abbreviation: "HR",
+  },
+  {
+    value: "Cuba",
+    label: "Cuba",
+    abbreviation: "CU",
+  },
+  {
+    value: "Cyprus",
+    label: "Cyprus",
+    abbreviation: "CY",
+  },
+  {
+    value: "Czech Republic",
+    label: "Czech Republic",
+    abbreviation: "CZ",
+  },
+  {
+    value: "Denmark",
+    label: "Denmark",
+    abbreviation: "DK",
+  },
+  {
+    value: "Djibouti",
+    label: "Djibouti",
+    abbreviation: "DJ",
+  },
+  {
+    value: "Dominica",
+    label: "Dominica",
+    abbreviation: "DM",
+  },
+  {
+    value: "Dominican Republic",
+    label: "Dominican Republic",
+    abbreviation: "DO",
+  },
+  {
+    value: "East Timor",
+    label: "East Timor",
+    abbreviation: "TP",
+  },
+  {
+    value: "Ecuador",
+    label: "Ecuador",
+    abbreviation: "EC",
+  },
+  {
+    value: "Egypt",
+    label: "Egypt",
+    abbreviation: "EG",
+  },
+  {
+    value: "El Salvador",
+    label: "El Salvador",
+    abbreviation: "SV",
+  },
+  {
+    value: "Equatorial Guinea",
+    label: "Equatorial Guinea",
+    abbreviation: "GQ",
+  },
+  {
+    value: "Eritrea",
+    label: "Eritrea",
+    abbreviation: "ER",
+  },
+  {
+    value: "Estonia",
+    label: "Estonia",
+    abbreviation: "EE",
+  },
+  {
+    value: "Ethiopia",
+    label: "Ethiopia",
+    abbreviation: "ET",
+  },
+  {
+    value: "Falkland Islands",
+    label: "Falkland Islands",
+    abbreviation: "FK",
+  },
+  {
+    value: "Faroe Islands",
+    label: "Faroe Islands",
+    abbreviation: "FO",
+  },
+  {
+    value: "Fiji Islands",
+    label: "Fiji Islands",
+    abbreviation: "FJ",
+  },
+  {
+    value: "Finland",
+    label: "Finland",
+    abbreviation: "FI",
+  },
+  {
+    value: "France",
+    label: "France",
+    abbreviation: "FR",
+  },
+  {
+    value: "French Guiana",
+    label: "French Guiana",
+    abbreviation: "GF",
+  },
+  {
+    value: "French Polynesia",
+    label: "French Polynesia",
+    abbreviation: "PF",
+  },
+  {
+    value: "French Southern territories",
+    label: "French Southern territories",
+    abbreviation: "TF",
+  },
+  {
+    value: "Gabon",
+    label: "Gabon",
+    abbreviation: "GA",
+  },
+  {
+    value: "Gambia",
+    label: "Gambia",
+    abbreviation: "GM",
+  },
+  {
+    value: "Georgia",
+    label: "Georgia",
+    abbreviation: "GE",
+  },
+  {
+    value: "Germany",
+    label: "Germany",
+    abbreviation: "DE",
+  },
+  {
+    value: "Ghana",
+    label: "Ghana",
+    abbreviation: "GH",
+  },
+  {
+    value: "Gibraltar",
+    label: "Gibraltar",
+    abbreviation: "GI",
+  },
+  {
+    value: "Greece",
+    label: "Greece",
+    abbreviation: "GR",
+  },
+  {
+    value: "Greenland",
+    label: "Greenland",
+    abbreviation: "GL",
+  },
+  {
+    value: "Grenada",
+    label: "Grenada",
+    abbreviation: "GD",
+  },
+  {
+    value: "Guadeloupe",
+    label: "Guadeloupe",
+    abbreviation: "GP",
+  },
+  {
+    value: "Guam",
+    label: "Guam",
+    abbreviation: "GU",
+  },
+  {
+    value: "Guatemala",
+    label: "Guatemala",
+    abbreviation: "GT",
+  },
+  {
+    value: "Guernsey",
+    label: "Guernsey",
+    abbreviation: "GG",
+  },
+  {
+    value: "Guinea",
+    label: "Guinea",
+    abbreviation: "GN",
+  },
+  {
+    value: "Guinea-Bissau",
+    label: "Guinea-Bissau",
+    abbreviation: "GW",
+  },
+  {
+    value: "Guyana",
+    label: "Guyana",
+    abbreviation: "GY",
+  },
+  {
+    value: "Haiti",
+    label: "Haiti",
+    abbreviation: "HT",
+  },
+  {
+    value: "Heard Island and McDonald Islands",
+    label: "Heard Island and McDonald Islands",
+    abbreviation: "HM",
+  },
+  {
+    value: "Holy See (Vatican City State)",
+    label: "Holy See (Vatican City State)",
+    abbreviation: "VA",
+  },
+  {
+    value: "Honduras",
+    label: "Honduras",
+    abbreviation: "HN",
+  },
+  {
+    value: "Hong Kong",
+    label: "Hong Kong",
+    abbreviation: "HK",
+  },
+  {
+    value: "Hungary",
+    label: "Hungary",
+    abbreviation: "HU",
+  },
+  {
+    value: "Iceland",
+    label: "Iceland",
+    abbreviation: "IS",
+  },
+  {
+    value: "India",
+    label: "India",
+    abbreviation: "IN",
+  },
+  {
+    value: "Indonesia",
+    label: "Indonesia",
+    abbreviation: "ID",
+  },
+  {
+    value: "Iran",
+    label: "Iran",
+    abbreviation: "IR",
+  },
+  {
+    value: "Iraq",
+    label: "Iraq",
+    abbreviation: "IQ",
+  },
+  {
+    value: "Ireland",
+    label: "Ireland",
+    abbreviation: "IE",
+  },
+  {
+    value: "Isle of Man",
+    label: "Isle of Man",
+    abbreviation: "IM",
+  },
+  {
+    value: "Israel",
+    label: "Israel",
+    abbreviation: "IL",
+  },
+  {
+    value: "Italy",
+    label: "Italy",
+    abbreviation: "IT",
+  },
+  {
+    value: "Ivory Coast",
+    label: "Ivory Coast",
+    abbreviation: "CI",
+  },
+  {
+    value: "Jamaica",
+    label: "Jamaica",
+    abbreviation: "JM",
+  },
+  {
+    value: "Japan",
+    label: "Japan",
+    abbreviation: "JP",
+  },
+  {
+    value: "Jersey",
+    label: "Jersey",
+    abbreviation: "JE",
+  },
+  {
+    value: "Jordan",
+    label: "Jordan",
+    abbreviation: "JO",
+  },
+  {
+    value: "Kazakhstan",
+    label: "Kazakhstan",
+    abbreviation: "KZ",
+  },
+  {
+    value: "Kenya",
+    label: "Kenya",
+    abbreviation: "KE",
+  },
+  {
+    value: "Kiribati",
+    label: "Kiribati",
+    abbreviation: "KI",
+  },
+  {
+    value: "Kuwait",
+    label: "Kuwait",
+    abbreviation: "KW",
+  },
+  {
+    value: "Kyrgyzstan",
+    label: "Kyrgyzstan",
+    abbreviation: "KG",
+  },
+  {
+    value: "Laos",
+    label: "Laos",
+    abbreviation: "LA",
+  },
+  {
+    value: "Latvia",
+    label: "Latvia",
+    abbreviation: "LV",
+  },
+  {
+    value: "Lebanon",
+    label: "Lebanon",
+    abbreviation: "LB",
+  },
+  {
+    value: "Lesotho",
+    label: "Lesotho",
+    abbreviation: "LS",
+  },
+  {
+    value: "Liberia",
+    label: "Liberia",
+    abbreviation: "LR",
+  },
+  {
+    value: "Libyan Arab Jamahiriya",
+    label: "Libyan Arab Jamahiriya",
+    abbreviation: "LY",
+  },
+  {
+    value: "Liechtenstein",
+    label: "Liechtenstein",
+    abbreviation: "LI",
+  },
+  {
+    value: "Lithuania",
+    label: "Lithuania",
+    abbreviation: "LT",
+  },
+  {
+    value: "Luxembourg",
+    label: "Luxembourg",
+    abbreviation: "LU",
+  },
+  {
+    value: "Macao",
+    label: "Macao",
+    abbreviation: "MO",
+  },
+  {
+    value: "North Macedonia",
+    label: "North Macedonia",
+    abbreviation: "MK",
+  },
+  {
+    value: "Madagascar",
+    label: "Madagascar",
+    abbreviation: "MG",
+  },
+  {
+    value: "Malawi",
+    label: "Malawi",
+    abbreviation: "MW",
+  },
+  {
+    value: "Malaysia",
+    label: "Malaysia",
+    abbreviation: "MY",
+  },
+  {
+    value: "Maldives",
+    label: "Maldives",
+    abbreviation: "MV",
+  },
+  {
+    value: "Mali",
+    label: "Mali",
+    abbreviation: "ML",
+  },
+  {
+    value: "Malta",
+    label: "Malta",
+    abbreviation: "MT",
+  },
+  {
+    value: "Marshall Islands",
+    label: "Marshall Islands",
+    abbreviation: "MH",
+  },
+  {
+    value: "Martinique",
+    label: "Martinique",
+    abbreviation: "MQ",
+  },
+  {
+    value: "Mauritania",
+    label: "Mauritania",
+    abbreviation: "MR",
+  },
+  {
+    value: "Mauritius",
+    label: "Mauritius",
+    abbreviation: "MU",
+  },
+  {
+    value: "Mayotte",
+    label: "Mayotte",
+    abbreviation: "YT",
+  },
+  {
+    value: "Mexico",
+    label: "Mexico",
+    abbreviation: "MX",
+  },
+  {
+    value: "Micronesia, Federated States of",
+    label: "Micronesia, Federated States of",
+    abbreviation: "FM",
+  },
+  {
+    value: "Moldova",
+    label: "Moldova",
+    abbreviation: "MD",
+  },
+  {
+    value: "Monaco",
+    label: "Monaco",
+    abbreviation: "MC",
+  },
+  {
+    value: "Mongolia",
+    label: "Mongolia",
+    abbreviation: "MN",
+  },
+  {
+    value: "Montenegro",
+    label: "Montenegro",
+    abbreviation: "ME",
+  },
+  {
+    value: "Montserrat",
+    label: "Montserrat",
+    abbreviation: "MS",
+  },
+  {
+    value: "Morocco",
+    label: "Morocco",
+    abbreviation: "MA",
+  },
+  {
+    value: "Mozambique",
+    label: "Mozambique",
+    abbreviation: "MZ",
+  },
+  {
+    value: "Myanmar",
+    label: "Myanmar",
+    abbreviation: "MM",
+  },
+  {
+    value: "Namibia",
+    label: "Namibia",
+    abbreviation: "NA",
+  },
+  {
+    value: "Nauru",
+    label: "Nauru",
+    abbreviation: "NR",
+  },
+  {
+    value: "Nepal",
+    label: "Nepal",
+    abbreviation: "NP",
+  },
+  {
+    value: "Netherlands",
+    label: "Netherlands",
+    abbreviation: "NL",
+  },
+  {
+    value: "Netherlands Antilles",
+    label: "Netherlands Antilles",
+    abbreviation: "AN",
+  },
+  {
+    value: "New Caledonia",
+    label: "New Caledonia",
+    abbreviation: "NC",
+  },
+  {
+    value: "New Zealand",
+    label: "New Zealand",
+    abbreviation: "NZ",
+  },
+  {
+    value: "Nicaragua",
+    label: "Nicaragua",
+    abbreviation: "NI",
+  },
+  {
+    value: "Niger",
+    label: "Niger",
+    abbreviation: "NE",
+  },
+  {
+    value: "Nigeria",
+    label: "Nigeria",
+    abbreviation: "NG",
+  },
+  {
+    value: "Niue",
+    label: "Niue",
+    abbreviation: "NU",
+  },
+  {
+    value: "Norfolk Island",
+    label: "Norfolk Island",
+    abbreviation: "NF",
+  },
+  {
+    value: "North Korea",
+    label: "North Korea",
+    abbreviation: "KP",
+  },
+  {
+    value: "Northern Ireland",
+    label: "Northern Ireland",
+    abbreviation: "GB",
+  },
+  {
+    value: "Northern Mariana Islands",
+    label: "Northern Mariana Islands",
+    abbreviation: "MP",
+  },
+  {
+    value: "Norway",
+    label: "Norway",
+    abbreviation: "NO",
+  },
+  {
+    value: "Oman",
+    label: "Oman",
+    abbreviation: "OM",
+  },
+  {
+    value: "Pakistan",
+    label: "Pakistan",
+    abbreviation: "PK",
+  },
+  {
+    value: "Palau",
+    label: "Palau",
+    abbreviation: "PW",
+  },
+  {
+    value: "Palestine",
+    label: "Palestine",
+    abbreviation: "PS",
+  },
+  {
+    value: "Panama",
+    label: "Panama",
+    abbreviation: "PA",
+  },
+  {
+    value: "Papua New Guinea",
+    label: "Papua New Guinea",
+    abbreviation: "PG",
+  },
+  {
+    value: "Paraguay",
+    label: "Paraguay",
+    abbreviation: "PY",
+  },
+  {
+    value: "Peru",
+    label: "Peru",
+    abbreviation: "PE",
+  },
+  {
+    value: "Philippines",
+    label: "Philippines",
+    abbreviation: "PH",
+  },
+  {
+    value: "Pitcairn",
+    label: "Pitcairn",
+    abbreviation: "PN",
+  },
+  {
+    value: "Poland",
+    label: "Poland",
+    abbreviation: "PL",
+  },
+  {
+    value: "Portugal",
+    label: "Portugal",
+    abbreviation: "PT",
+  },
+  {
+    value: "Puerto Rico",
+    label: "Puerto Rico",
+    abbreviation: "PR",
+  },
+  {
+    value: "Qatar",
+    label: "Qatar",
+    abbreviation: "QA",
+  },
+  {
+    value: "Reunion",
+    label: "Reunion",
+    abbreviation: "RE",
+  },
+  {
+    value: "Romania",
+    label: "Romania",
+    abbreviation: "RO",
+  },
+  {
+    value: "Russian Federation",
+    label: "Russian Federation",
+    abbreviation: "RU",
+  },
+  {
+    value: "Rwanda",
+    label: "Rwanda",
+    abbreviation: "RW",
+  },
+  {
+    value: "Saint Helena",
+    label: "Saint Helena",
+    abbreviation: "SH",
+  },
+  {
+    value: "Saint Kitts and Nevis",
+    label: "Saint Kitts and Nevis",
+    abbreviation: "KN",
+  },
+  {
+    value: "Saint Lucia",
+    label: "Saint Lucia",
+    abbreviation: "LC",
+  },
+  {
+    value: "Saint Pierre and Miquelon",
+    label: "Saint Pierre and Miquelon",
+    abbreviation: "PM",
+  },
+  {
+    value: "Saint Vincent and the Grenadines",
+    label: "Saint Vincent and the Grenadines",
+    abbreviation: "VC",
+  },
+  {
+    value: "Samoa",
+    label: "Samoa",
+    abbreviation: "WS",
+  },
+  {
+    value: "San Marino",
+    label: "San Marino",
+    abbreviation: "SM",
+  },
+  {
+    value: "Sao Tome and Principe",
+    label: "Sao Tome and Principe",
+    abbreviation: "ST",
+  },
+  {
+    value: "Saudi Arabia",
+    label: "Saudi Arabia",
+    abbreviation: "SA",
+  },
+  {
+    value: "Senegal",
+    label: "Senegal",
+    abbreviation: "SN",
+  },
+  {
+    value: "Serbia",
+    label: "Serbia",
+    abbreviation: "RS",
+  },
+  {
+    value: "Seychelles",
+    label: "Seychelles",
+    abbreviation: "SC",
+  },
+  {
+    value: "Sierra Leone",
+    label: "Sierra Leone",
+    abbreviation: "SL",
+  },
+  {
+    value: "Singapore",
+    label: "Singapore",
+    abbreviation: "SG",
+  },
+  {
+    value: "Slovakia",
+    label: "Slovakia",
+    abbreviation: "SK",
+  },
+  {
+    value: "Slovenia",
+    label: "Slovenia",
+    abbreviation: "SI",
+  },
+  {
+    value: "Solomon Islands",
+    label: "Solomon Islands",
+    abbreviation: "SB",
+  },
+  {
+    value: "Somalia",
+    label: "Somalia",
+    abbreviation: "SO",
+  },
+  {
+    value: "South Africa",
+    label: "South Africa",
+    abbreviation: "ZA",
+  },
+  {
+    value: "South Georgia and the South Sandwich Islands",
+    label: "South Georgia and the South Sandwich Islands",
+    abbreviation: "GS",
+  },
+  {
+    value: "South Korea",
+    label: "South Korea",
+    abbreviation: "KR",
+  },
+  {
+    value: "South Sudan",
+    label: "South Sudan",
+    abbreviation: "SS",
+  },
+  {
+    value: "Spain",
+    label: "Spain",
+    abbreviation: "ES",
+  },
+  {
+    value: "Sri Lanka",
+    label: "Sri Lanka",
+    abbreviation: "LK",
+  },
+  {
+    value: "Sudan",
+    label: "Sudan",
+    abbreviation: "SD",
+  },
+  {
+    value: "Suriname",
+    label: "Suriname",
+    abbreviation: "SR",
+  },
+  {
+    value: "Svalbard and Jan Mayen",
+    label: "Svalbard and Jan Mayen",
+    abbreviation: "SJ",
+  },
+  {
+    value: "Swaziland",
+    label: "Swaziland",
+    abbreviation: "SZ",
+  },
+  {
+    value: "Sweden",
+    label: "Sweden",
+    abbreviation: "SE",
+  },
+  {
+    value: "Switzerland",
+    label: "Switzerland",
+    abbreviation: "CH",
+  },
+  {
+    value: "Syria",
+    label: "Syria",
+    abbreviation: "SY",
+  },
+  {
+    value: "Tajikistan",
+    label: "Tajikistan",
+    abbreviation: "TJ",
+  },
+  {
+    value: "Tanzania",
+    label: "Tanzania",
+    abbreviation: "TZ",
+  },
+  {
+    value: "Thailand",
+    label: "Thailand",
+    abbreviation: "TH",
+  },
+  {
+    value: "The Democratic Republic of Congo",
+    label: "The Democratic Republic of Congo",
+    abbreviation: "CD",
+  },
+  {
+    value: "Timor-Leste",
+    label: "Timor-Leste",
+    abbreviation: "TL",
+  },
+  {
+    value: "Togo",
+    label: "Togo",
+    abbreviation: "TG",
+  },
+  {
+    value: "Tokelau",
+    label: "Tokelau",
+    abbreviation: "TK",
+  },
+  {
+    value: "Tonga",
+    label: "Tonga",
+    abbreviation: "TO",
+  },
+  {
+    value: "Trinidad and Tobago",
+    label: "Trinidad and Tobago",
+    abbreviation: "TT",
+  },
+  {
+    value: "Tunisia",
+    label: "Tunisia",
+    abbreviation: "TN",
+  },
+  {
+    value: "Turkey",
+    label: "Turkey",
+    abbreviation: "TR",
+  },
+  {
+    value: "Turkmenistan",
+    label: "Turkmenistan",
+    abbreviation: "TM",
+  },
+  {
+    value: "Turks and Caicos Islands",
+    label: "Turks and Caicos Islands",
+    abbreviation: "TC",
+  },
+  {
+    value: "Tuvalu",
+    label: "Tuvalu",
+    abbreviation: "TV",
+  },
+  {
+    value: "Uganda",
+    label: "Uganda",
+    abbreviation: "UG",
+  },
+  {
+    value: "Ukraine",
+    label: "Ukraine",
+    abbreviation: "UA",
+  },
+  {
+    value: "United Arab Emirates",
+    label: "United Arab Emirates",
+    abbreviation: "AE",
+  },
+  {
+    value: "United Kingdom",
+    label: "United Kingdom",
+    abbreviation: "UK",
+  },
+  {
+    value: "United States",
+    label: "United States",
+    abbreviation: "US",
+  },
+  {
+    value: "United States Minor Outlying Islands",
+    label: "United States Minor Outlying Islands",
+    abbreviation: "UM",
+  },
+  {
+    value: "Uruguay",
+    label: "Uruguay",
+    abbreviation: "UY",
+  },
+  {
+    value: "Uzbekistan",
+    label: "Uzbekistan",
+    abbreviation: "UZ",
+  },
+  {
+    value: "Vanuatu",
+    label: "Vanuatu",
+    abbreviation: "VU",
+  },
+  {
+    value: "Venezuela",
+    label: "Venezuela",
+    abbreviation: "VE",
+  },
+  {
+    value: "Vietnam",
+    label: "Vietnam",
+    abbreviation: "VN",
+  },
+  {
+    value: "Virgin Islands, British",
+    label: "Virgin Islands, British",
+    abbreviation: "VG",
+  },
+  {
+    value: "Virgin Islands, U.S.",
+    label: "Virgin Islands, U.S.",
+    abbreviation: "VI",
+  },
+  {
+    value: "Wallis and Futuna",
+    label: "Wallis and Futuna",
+    abbreviation: "WF",
+  },
+  {
+    value: "Western Sahara",
+    label: "Western Sahara",
+    abbreviation: "EH",
+  },
+  {
+    value: "Yemen",
+    label: "Yemen",
+    abbreviation: "YE",
+  },
+  {
+    value: "Zambia",
+    label: "Zambia",
+    abbreviation: "ZM",
+  },
+  {
+    value: "Zimbabwe",
+    label: "Zimbabwe",
+    abbreviation: "ZW",
+  },
+];
+export default country;
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="//github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> using the <a href="//github.com/HalZhan/docdash-with-search">docdash-with-search</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/system.js"></script>
+<script src="scripts/app.js"></script>
+
+</body>
+</html>
